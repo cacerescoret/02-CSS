@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.cont80 {
+    width: 80%;
+    margin: 40px auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.biselada {
+    border-radius: 25px;
+}
+
+.redonda {
+    border: 10px solid orangered;
+    border-radius: 160px;
+}
+
+.filtro {
+    filter: grayscale(100%);
+}
+
+.filtro:hover {
+    filter: none;
+}
+
+.recortada {
+    clip-path: polygon(0% 0%, 100% 0%, 
+                       100% 60%, 40% 60%, 
+                       30% 80%, 20% 60%, 
+                       0% 60%);
+}
+
+.pestaña {
+    width: 180px;
+    height: 80px;
+    clip-path: polygon(0% 0%,80% 0%, 80% 30%,
+                       100% 50%, 80% 70%,
+                       80% 100%, 0% 100%);
+    color: white;
+    font-size: 24px;
+    padding: 20px 0 0 20px;
+}
+.rojo {
+    background-color: crimson;
+}
+.azul {
+    background-color: dodgerblue;
+}

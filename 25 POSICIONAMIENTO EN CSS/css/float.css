@@ -1,0 +1,38 @@
+body {
+    color: #3f3f3f;
+}
+
+p, img {
+    padding: 10px;
+}
+
+.dcha {
+    float: right;
+}
+
+.izda {
+    float: left;
+}
+
+.eliminaflotante {
+    clear: both; 
+}
+
+button {
+    background-color: rgb(63, 63, 236);
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.paginacion {
+    text-align: center;
+}
+
+.pagina {
+    background-color: white;
+    color: rgb(63, 63, 236);
+    border: 1px solid rgb(63, 63, 236);
+}

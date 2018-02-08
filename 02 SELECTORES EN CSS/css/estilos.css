@@ -1,0 +1,92 @@
+/* Selectores en CSS */
+
+/* Reglas At-rule */
+
+@import 'navegacion.css';
+
+/* Selectores simples */
+
+/* Selector universal (reseteo CSS)*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Selector por elemento html */
+
+li {
+    font-size: 30px;
+}
+
+/* Selector por atributo clase */
+
+.naranja {
+    background-color: orange;
+    color: white;
+}
+
+/* Selector por atributo id */
+
+#logo {
+    text-shadow: 2px 2px 2px grey;
+    font-size: 40px;
+}
+
+/* Selectores múltiples */
+
+/* Selector por atributo */
+
+[disabled] {
+    cursor: not-allowed;
+}
+
+/* Selector por atributo y valor */
+
+[tipo] {
+    border: solid 4px grey;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
+
+[tipo="bebida"] {
+    background-color: aqua;
+}
+[tipo="plato"] {
+    background-color: brown;
+}
+[tipo="postre"] {
+    background-color: violet;
+}
+
+/* Selector pseudoclase */
+
+.btn {
+    background-color: lightseagreen;
+    color: white;
+    font-size: 22px;
+    padding: 8px;
+    border: none;
+    margin: 40px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: lightseagreen;
+    border: solid 2px lightseagreen;
+}
+
+/* Selector pseudoelemento */
+
+.texto {
+    background-color: beige;
+    padding: 40px;
+    margin: 40px;
+    font-size: 24px;
+}
+
+.texto::after {
+    content: 'Escrito por Juan Pérez';
+    color: grey;
+}

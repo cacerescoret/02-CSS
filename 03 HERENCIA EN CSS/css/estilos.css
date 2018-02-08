@@ -1,0 +1,22 @@
+/* Estilos de herencias */
+
+.padre {
+    border: solid 2px green;
+    margin: 40px;
+    padding: 40px;
+    color: blue;
+}
+
+.hijo {
+    border: inherit;
+    margin: 40px;
+    padding: 40px;
+    color: red;
+}
+
+.nieto {
+    border: solid 2px black;
+    margin: 40px;
+    padding: 40px;
+    /* color: initial; */
+}

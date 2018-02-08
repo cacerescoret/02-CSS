@@ -1,0 +1,39 @@
+/* Combinación de selectores */
+
+/* Varios selectores para 
+las mismas reglas (,) */
+
+h1, h2 {
+    color: blue;
+}
+
+/* Varios selectores unidos */
+
+div.texto {
+    color: green;
+}
+
+/* Varios selectores descencientes (espacio)*/
+
+.listas li {
+    color: violet;
+}
+
+/* Varios selectores hijos (>) */
+
+.contenedor>h1 {
+    color: brown;
+}
+
+/* Varios selectores hermanos en general (~)
+atlgr + 4 (y un espacio) */
+
+.primogenito~.hermano_normal {
+                  color: purple;  
+}
+
+/* Varios selectores hermano adyacente (+) */
+
+h1+p {
+    color: lawngreen;
+}

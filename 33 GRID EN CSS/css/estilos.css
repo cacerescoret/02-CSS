@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    color: #666666;
+}
+
+.contenedor {
+    margin: 20px;
+    /*Receta Grid para colocación automática
+      de filas y columnas*/
+      display: grid;
+      /* Auto-fit crea tantas columnas como necesitemos
+        del ancho especificado */
+      grid-template-columns: repeat(auto-fit, 300px);
+      grid-template-rows: repeat(2, 400px);
+      grid-gap: 40px;
+      justify-content: space-around;
+}
+
+.tarjeta {
+    width: 300px;
+    height: 400px;
+    box-shadow: 2px 2px 4px grey;
+}
+
+.imagen {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.imagen img {
+    height: 200px;
+}
+
+.btn {
+    background-color: crimson;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    border-bottom: 4px solid rgb(155, 13, 41);
+    align-self: center;
+}
+
+.btn:hover {
+    background-color: rgb(155, 13, 41);
+}
+
+.datos {
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.top {
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.direccion {
+    width: 200px;
+}
+
+.direccion p:first-child {
+    color: crimson;
+    font-weight: bold;
+}
+
+.rrss a {
+    color: #666666;
+    font-size: 20px;
+}
+
+.rrss a:hover {
+    color: crimson;
+}
+

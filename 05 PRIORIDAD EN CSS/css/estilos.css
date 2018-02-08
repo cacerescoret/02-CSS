@@ -1,0 +1,91 @@
+/* Prioridad a la hora de aplicar
+estilos en CSS
+
+La prioridad se basa en tres conceptos:
+    - Importancia. 
+    - Especificidad. 
+    - Orden. */
+
+/* Importancia establece la prioridad 
+en función del tipo de hojas de estilos 
+
+    - CSS de autor (el código CSS de la web).
+    - CSS de usuario (si el usuario configura
+                       el navegador).
+    - CSS de user agent (el navegador). */
+
+/* Orden establece la prioridad en función
+   de la situación del código CSS. 
+
+    - Estilos en línea (atributo style) 
+    - Estilos internos (elemento style)
+    - Estilos externos (archivo .css) */
+
+/* Regla CSS en archivo externo */
+
+/* p {
+    color: grey;
+} */
+
+/* La especificidad se establece para 
+resolver la prioridad para las mismas
+propiedades en función del número de 
+selectores. 
+
+Número de especificidad que consta de 
+4 componentes ABCD (dígitos).
+
+Para cada bloque de código CSS
+
+Componente A número de estilos en línea
+Componente B número de selectores id
+Componente C número de selectores clases
+              o pseudoclases
+Componente D número de elementos 
+              o pseudoelementos */
+
+/* Ejemplo básico de especificidad */ 
+
+/*  0001   */
+p {
+    color: violet;
+}
+
+/*  0010   */
+
+.naranja {
+    color: orange;
+}
+
+/*  0100   */
+
+#texto {
+    color: blue;
+}
+
+/* Valor para romper prioridad */
+
+/* p {
+    color: aqua !important;
+} */
+
+/* Ejemplo especificidad con combinación 
+de selectores */
+
+/* 0001   */
+
+li {
+    color: blue;
+}
+
+/*  0002  */
+
+p~li {
+    color: purple;
+}
+
+/* 0011    */
+
+ul .verde {
+    color: green;
+}

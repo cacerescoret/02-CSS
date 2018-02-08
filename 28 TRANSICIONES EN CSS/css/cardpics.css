@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    margin: 40px;
+    height: 340px;
+    width: 340px;
+    padding: 20px;
+    box-shadow: 2px 2px 2px grey;
+    position: relative;
+    border-radius: 5px;
+}
+
+.texto {
+    opacity: 0;
+    height: 100px;
+    width: 300px;
+    position: absolute; /*Relativa al padre*/
+    bottom: 20px;
+    left: 20px;
+    background-color: rgba(220, 20, 60, 0.8);
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1500ms;
+}
+
+.texto p {
+    text-align: center;
+}
+
+.card:hover .texto {
+    opacity: 1;
+}

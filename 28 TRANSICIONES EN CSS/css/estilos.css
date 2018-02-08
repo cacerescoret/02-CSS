@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.uno {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    transition-duration: 2s, 10s;
+    transition-property: width, background-color;
+
+}
+
+.uno:hover {
+    width: 400px;
+    background-color: blueviolet;
+}

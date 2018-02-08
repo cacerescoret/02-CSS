@@ -1,0 +1,78 @@
+/* Variaciones en textos */
+
+/* Propiedad text-decoration */
+
+a {
+    text-decoration: none;
+}
+
+.subrayado {
+    text-decoration-line: underline;
+    text-decoration-color: lightcoral;
+    text-decoration-style: wavy;
+    /* double | dotted | dashed | wavy */
+}
+
+/* Shorthand varios valores en la misma propiedad
+.subrayado {
+    text-decoration: underline lightcoral wavy;
+} */
+
+.suprarayado {
+    text-decoration: overline;
+}
+
+.tachado {
+    text-decoration: line-through red;
+}
+
+/* Propiedad text-transform */
+
+.mayusculas {
+    text-transform: uppercase;
+}
+
+.minusculas {
+    text-transform: lowercase;
+}
+
+.capitalizadas {
+    text-transform: capitalize;
+}
+
+/* Pseudoelementos first-letter y first-line */
+
+.textos {
+    font-size: 22px;
+    color: #3f3f3f;
+}
+
+.textos::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+    color: violet;
+}
+
+.textos::first-line {
+    color: green;
+}
+
+/* Pseudoelemento selection */
+
+h2::selection, p::selection {
+    background-color: pink;
+    color: white;
+}
+
+/* Propiedad text-shadow */
+
+.titulo {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    /* desplaz. horizontal, vertical, difuminado, color */
+    text-shadow: 2px 2px 3px red,
+                 -2px -2px 3px green,
+                 -2px 2px 3px blue,
+                 2px -2px 3px yellow;
+}

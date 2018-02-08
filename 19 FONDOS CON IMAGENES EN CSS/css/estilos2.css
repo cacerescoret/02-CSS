@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.normal {
+    padding: 40px;
+    color: #3f3f3f;
+    font-size: 22px;
+}
+
+.fondo {
+    padding: 60px;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    background-image: url('../img/icons8-champagne-64.png'),
+                      url('../img/background-1932466_1920.jpg');
+    background-attachment: scroll, fixed;
+    background-size: initial, contain;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 20px 60px, center;
+}

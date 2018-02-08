@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.uno {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 26px;
+    transition: 2s;
+}
+.uno:hover {
+    transform: rotate(-90deg);
+    transform-origin: 20px 40px;
+}
+
+.dos {
+    width: 200px;
+    height: 200px;
+    background-color: mediumspringgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 26px;
+    transition: 2s;
+}
+.dos:hover {
+    transform: scale(1.5,0.75);
+}
+
+.tres {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 26px;
+    transition: 2s;
+}
+.tres:hover {
+    transform: skew(30deg, 30deg);
+}

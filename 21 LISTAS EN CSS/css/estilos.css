@@ -1,0 +1,43 @@
+/* Listas en CSS */
+
+ul {
+    /* Valor viñeta: disc | circle | square */
+    /* Valor número: decimal |
+                    decimal-leading-zero |
+                    lower-alpha | upper-alpha
+                    lower-roman | upper-roman */
+    /* list-style-type:  decimal; */
+    /* list-style-image: url('../img/darth-vader-frontal-head-outline.svg'); */
+    list-style: none; /*Elimina las viñetas*/
+}
+
+li::before {
+    content: url('../img/darth-vader-frontal-head-outline.svg');
+    position: relative;
+    top: 5px;
+    right: 5px;
+}
+
+/* Pseudoclases para elementos repetitivos */
+
+/* li:first-child {
+    color: orange; /*Primero
+}
+
+li:last-child {
+    color: green; /*Último
+}
+
+li:nth-child(3) {
+    color: red; /*El especificado en
+                     el número 
+} */
+
+li:nth-child(odd){
+    color: violet; /*Impares*/
+}
+
+li:nth-child(even){
+    color: lime; /*Pares*/
+}
+

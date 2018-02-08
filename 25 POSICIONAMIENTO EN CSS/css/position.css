@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+/*Position, valor por defecto static*/
+
+/*Position relative*/
+
+.uno {
+    background-color: green;
+    width: 300px;
+    height: 200px;
+    position: relative; /*Relativa a donde
+                          debería estar*/
+    top: 40px;  /*Desplazar desde arriba*/
+    left: 80px; /*Desplazar desde la izda.*/
+}
+
+.dos {
+    background-color: orange;
+    width: 80px;
+    height:60px;
+    position: relative;
+    bottom: 40px;
+    right: 20px;
+}
+
+/* Posición fija */
+
+.tres {
+    background-color: crimson;
+    width: 200px;
+    height: 120px;
+    position: fixed; /*Fijo al dispositivo*/
+    bottom: 10px;
+    right: 20px;
+}
+
+/* Posición absoluta */
+
+.cuatro {
+    background-color: darksalmon;
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    position: relative; /*Posicionado*/
+}
+
+.cinco {
+    position: absolute; /* Igual que la
+                        posición fija pero
+                        para el elemento que
+                        lo contenga*/
+    top: 10px;
+    right: 20px;
+}
+
+.sticky {
+    background-color: orange;
+    color: white;
+    position: sticky; /* Mantiene su 
+                       posición en el documento
+                       hasta que llega a la
+                       definida mediante el
+                       desplazamiento vertical*/
+    top: 0px;
+}
+
+.sticky2 {
+    background-color: blueviolet;
+    color:white;
+    position: sticky;
+    top: 40px;
+}

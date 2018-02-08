@@ -1,0 +1,41 @@
+/* Colores en CSS */
+
+/* Formatos:
+        - Palabra clave
+        https://www.w3.org/wiki/CSS3/Color/Extended_color_keywords
+        - RGB (rojo, verde, azul)
+        - RGBA con canal alfa (transparencias)
+        - Hexadecimales
+        - HSL (poco utilizado) */
+
+/* Propiedad color */
+
+h1 {
+    color: rgb(70, 130, 180);
+}
+
+p {
+    color: #D2691E; 
+}
+
+/* Propiedad background-color */
+
+.fondo {
+    background-color: #D2691E;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.filtro {
+    background-color: rgba(50, 205, 50, 0.7);
+    /* opacity: 0.7; hace lo mismo */
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 80px;
+    top: 80px;
+}
+

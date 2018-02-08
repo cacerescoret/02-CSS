@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dimensiones en CSS</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <h2>
+        Ejemplos elementos en bloque y
+        en línea.
+    </h2>
+    <p class="borde">
+        Soy un parrafo (en bloque).
+    </p>
+    <span class="borde">
+        Soy un span (en línea).
+    </span>
+    <span class="borde">
+        Soy otro span (en línea).
+    </span>
+    <hr>
+    <h2>Ejemplo de ancho y alto</h2>
+    <div class="padre">
+        <div class="hijo"></div>
+    </div>
+    <hr>
+    <h2>Ejemplo de ancho máximo y mínimo</h2>
+    <div class="padre2">
+        <div class="hijo2"></div>
+    </div>
+    <hr>
+    <h2>Ejemplo de ancho en porcentaje</h2>
+    <div class="contenedor80">
+        <p>Ocupo el 80 %</p>
+    </div>
+    <div class="contenedor50">
+        <p>Ocupo el 50 %</p>
+        <div class="contenedor50">
+            <p>Ocupo el 50 % de mi padre</p>
+        </div>
+    </div>
+    <hr>
+    <h2>Ejemplo de imagen con max-width al 100%</h2>
+    <img src="./img/caceres-conjunto-historicoartistico-1.jpg" 
+         alt="Cáceres">
+    <hr>
+    <h2>Ejemplo de altura en porcentaje</h2>
+    <div class="padre3">
+        <div class="hijo3">
+            <p>¡Hola Mundo!</p>
+        </div>
+    </div>
+    <div class="hijo3"> <!-- no funciona -->
+        <p>¡Hola Mundo!</p>
+    </div>
+</body>
+</html>

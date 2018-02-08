@@ -1,0 +1,87 @@
+/* Bordes en CSS */
+
+.bordes {
+    margin: 40px auto;
+    width: 400px;
+    height: 200px;
+    border-color: orange;
+    /* Permite thin | medium | thick */
+    border-width: 8px;
+    /* Permite:
+       dotted | dashed | solid 
+       double | ridge | groove
+       inset | outset */
+    border-style: outset;
+}
+
+.bordes2 {
+    margin: 40px auto;
+    width: 400px;
+    height: 200px;
+    /* - Un valor => 4 lados 
+    - 2 valores => Arriba Abajo, Izda. Dcha 
+    - 3 valores => Arriba, Izda. Dcha., Abajo
+    - 4 Valores => Arriba, dcha., abajo, izda. */
+    border-color: blue red green yellow;
+    border-width: 10px 8px 12px 6px;
+    border-style: solid dotted dashed outset;
+}
+
+/* Bordes con imágenes */
+
+.bordes3 {
+    width: 50%;
+    height: 50vh;
+    margin: 80px auto;
+    border: 50px solid grey;
+    border-image: url('../img/bordes_core.png') 33% round;
+}
+
+.bordes3 p {
+    margin: 20%;
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+
+/* Bordes redondeados */
+
+.bordes4 {
+    width: 400px;
+    height: 200px;
+    background-color: magenta;
+    margin: 40px auto;
+    border-radius: 15px;
+}
+
+/* Bordes redondeados diferentes */
+
+.bordes5 {
+    width: 260px;
+    height: 140px;
+    background-color: firebrick;
+    margin: 40px;
+    /* Valores:
+      - Un valor => Todas las esquinas iguales 
+      - 2 Valores => Sup.izda e Inf. dcha , 
+                     Sup dcha Inf izda 
+      - 3 Valores => Sup. izda, Sup dcha. e Inf izda.,
+                     Inf. dcha. 
+      - 4 Valores => Sup. izda, Sup. dcha., 
+                     Inf. dcha., Inf Izda. */
+    border-radius: 0 25px 25px 0;
+}
+
+/* Bordes externos */
+
+input {
+    margin: 40px;   
+}
+input:focus {
+    outline: 2px solid orange;
+}
+.fondo:focus {
+    outline: none;
+    border: solid 2px orange;
+    background-color: orange; 
+}

@@ -1,0 +1,82 @@
+/* Dimensiones en CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Elementos en linea y en bloque */
+/* Si no se define el ancho, los elementos
+en bloque ocupan todo el ancho disponible,
+y los elementos en linea el ancho de su 
+contenido. */
+
+.borde {
+    border: solid 1px orangered;
+}
+
+/* Propiedades de ancho y alto */
+
+.padre {
+    background-color: green;
+}
+
+.hijo {
+    background-color: orange;
+    width: 300px;
+    height: 200px;
+}
+
+/* Propiedades de ancho mínimo y máximo (y alto) */
+
+.padre2 {
+    background-color: green;
+    min-width: 400px;
+    max-width: 600px;
+    border: solid 4px black;
+}
+
+.hijo2 {
+    background-color: orange;
+    width: 300px;
+    height: 200px;
+}
+
+/* Propiedad ancho en porcentaje */
+
+.contenedor80 {
+    width: 80%;
+    border: solid 2px violet;
+}
+
+.contenedor50 {
+    width: 50%;
+    border: solid 2px violet;
+}
+
+/* Propiedad max-width en porcentaje */
+
+img {
+    max-width: 100%;
+}
+
+/* Altura en porcentaje (poco utilizado) */
+
+.padre3 {
+    border: 2px solid brown;
+    height: 300px; 
+}
+
+.hijo3 {
+    border: 2px solid goldenrod;
+    height: 30%;
+}
+
+/* Altura en unidad de medida vh */
+
+.hero {
+    height: 100vh;
+    border: solid 5px lightsalmon;
+}

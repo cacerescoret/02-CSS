@@ -1,0 +1,24 @@
+@keyframes inicio {
+    0% { margin: 0 auto; }
+    50% { 
+          margin: 300px auto;
+          background-color: white;
+          border: solid 4px violet;
+          color: violet;
+          transform: rotate(360deg);  
+        }
+    100% {  margin: 0 auto; }
+}
+
+.bienvenida {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: violet;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    animation-name: inicio;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}

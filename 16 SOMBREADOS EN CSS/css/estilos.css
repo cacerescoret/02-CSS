@@ -1,0 +1,26 @@
+/* Sombreados en CSS */
+
+.sombreado {
+    width: 50%;
+    height: 200px;
+    margin: 40px auto;
+    color: white;
+    font-size: 30px;
+    background-color: orange;
+    padding-top: 50px;
+    text-align: center;
+    /* Valores 
+        Despl. hztal, Despl. vert, 
+        difuminado, tamaño (opcional) , color. */
+    box-shadow: 4px 4px 4px 2px rgba(128, 128, 128, 0.685);
+    border-radius: 20px;
+}
+
+.sombreado-interior {
+    width: 300px;
+    height: 300px;
+    margin: 40px auto;
+    border: solid 10px violet;
+    box-shadow: 4px 4px 4px rgb(163, 162, 162) inset,
+                -4px -4px 4px rgb(163, 162, 162) inset;
+}

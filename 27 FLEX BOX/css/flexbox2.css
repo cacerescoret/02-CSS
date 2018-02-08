@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p { 
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+}
+.contenedor {
+    height: 100vh;
+    border: solid 5px orange;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+    align-items: stretch; /*stretch ajusta
+                            todos los elementos
+                            a la altura del padre*/
+                          /* baseline alinea
+                             con la inferior de
+                             la primera línea de
+                             elementos*/
+    }
+
+.contenedor div {
+    width: 200px;
+}
+.uno { background-color: #E24E42;}
+.dos { background-color: #E98000;}
+/* .dos p { font-size: 40px;} */
+.tres { background-color: #E86E80}
+.cuatro { background-color: #008F95}

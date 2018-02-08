@@ -1,0 +1,64 @@
+/* Regla face-font para fuentes propias */
+
+@font-face {
+    font-family: 'LosLannister';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Game of Thrones.ttf');
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/SairaCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/SairaCondensed-Bold.ttf');
+}
+
+/* Fuentes web Google */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Joti One', cursive;
+}
+
+.juego-tronos {
+    font-family: 'LosLannister', sans-serif;
+}
+
+/* Propiedad font-weight (tamaños 100 a 900)
+        normal => 400
+        bold   => 700
+        bolder => 900 */
+
+.ligera {
+    font-weight: 200;
+}
+
+.negrita {
+    font-weight: bold; /* similar 700 */
+}
+
+.muy-negrita {
+    font-weight: bolder; /* similar 900*/
+}
+
+.saira {
+    font-family: 'Saira', sans-serif;
+}
+
+/* Propiedad font-variant */
+
+.capitalizada {
+    font-variant: small-caps;
+    font-size: 40px;
+}

@@ -1,0 +1,60 @@
+/* Alineaciones */
+
+/* Propiedad text-align 
+   Alinear el texto en su contenedor
+*/
+
+.contenedor100 {
+    border: solid 2px orange;
+    margin: 20px;
+    padding: 20px;
+}
+
+.contenedor50 {
+    border: solid 2px orange;
+    margin: 20px;
+    padding: 20px;
+    width: 50% ;
+}
+
+.centrado {
+    text-align: center; 
+}
+
+.derecha {
+    text-align: right; 
+}
+
+.justificado {
+    text-align: justify;
+}
+
+/* Propiedad text-overflow 
+   muestra puntos suspensivos
+   en desbordamiento horizontal */
+
+.texto-desbordado {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 50%;
+    border: solid 2px violet;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Alineación vertical */
+/* Solo para elementos inline */
+
+.logo {
+    font-size: 100px;
+    color: purple;
+    vertical-align: middle;
+}
+
+.texto-middle {
+    font-size: 36px;
+    color: grey;
+    vertical-align: middle;
+}
+

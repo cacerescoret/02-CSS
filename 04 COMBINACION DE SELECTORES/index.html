@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Combinación de Selectores</title>
+    <link rel="stylesheet" 
+          href="./css/estilos.css">
+</head>
+<body>
+    <h3>
+        Ejemplo selectores para las
+        mismas reglas (,).
+    </h3>
+    <h1>Título</h1>
+    <h2>Subtítulo</h2>
+    <hr>
+    <h3>Ejemplo selectores unidos</h3>
+    <div class="texto">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, error!</p>
+    </div>
+    <p class="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, laudantium.</p>
+    <hr>
+    <h3>
+        Ejemplo selectores descendientes
+        (espacio).
+    </h3>
+    <div class="listas">
+        <ul>
+            <li>Fútbol</li>
+            <li>Baloncesto</li>
+            <li>Padel</li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li>Natación</li>
+            <li>Running</li>
+            <li>Escalada</li>
+        </ul>
+    </div>
+    <hr>
+    <h3>Ejemplo selectores hijos (>)</h3>
+    <div class="contenedor">
+        <h1>Título 1</h1>
+        <div>
+            <h2>Subtítulo 1</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div>
+            <h1>Título 2</h1> 
+            <h2>Subtítulo 2</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    <hr>
+    <h3>Ejemplo de selectores hermanos
+        en general (~).
+    </h3>
+    <div>
+        <p class="primogenito">Soy el primogenito</p>
+        <p class="hermano_normal">Soy un hermano</p>
+        <p class="hermano_normal">Soy un hermano</p>
+        <p class="hermano_normal">Soy un hermano</p>
+    </div>
+    <p class="hermano_normal">
+        Yo no pertenezco 
+        a la familia</p>
+    <hr>
+    <h3>
+        Ejemplo varios selectores 
+        hermano adyacente (+)
+    </h3>
+    <div>
+        <h1>Título</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+</body>
+</html>

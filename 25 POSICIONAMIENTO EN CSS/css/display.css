@@ -1,0 +1,52 @@
+p, span {
+    border: solid 1px orange;
+}
+
+.enlinea {
+    display: inline; /*Pasarán a ser
+                       en línea*/
+}
+
+.enbloque {
+    display: block; /*Pasarán a ser
+                       en bloque*/
+}
+
+.enlineaybloque {
+    display: inline-block; /* En línea hasta
+                           que no quepa en
+                           el ancho del
+                           contenedor */
+}
+
+.uno {
+    margin: 40px auto;
+    width: 300px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.dos {
+    margin: 40px auto;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(206, 15, 104);
+}
+
+.tres {
+    margin: 40px auto;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(43, 226, 195);
+}
+
+.apagado {
+    display: none; /*No se muestra
+                     ni mantiene su espacio*/
+}
+
+.oculto {
+    visibility: hidden; /*No se muestra
+                         pero mantiene 
+                         su espacio*/
+}

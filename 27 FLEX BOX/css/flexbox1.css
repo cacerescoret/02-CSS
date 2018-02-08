@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p { 
+    color: white;
+    font-size: 22px;
+}
+.contenedor {
+    border: solid 5px orange;
+    display: flex; /*Los hijos de este 
+                     elemento se colocan
+                     con Flex Box*/
+    flex-direction: row; 
+                    /* row fila (por defecto)
+                     row-reverse fila al revés 
+                     column columnas 
+                     column-reverse columnas al revés*/
+    justify-content: space-around;
+                    /* Alinea el eje principal
+                       flex-start inicio 
+                       center centro
+                       flex-end final
+                       space-between justificado
+                       space-aurond 'repartido'*/
+    align-items: flex-end;
+                    /* Alinea en el eje 
+                       secundario*/
+    }
+
+
+.contenedor div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.uno { background-color: #E24E42;}
+.dos { background-color: #E98000}
+.tres { background-color: #E86E80}
+.cuatro { background-color: #008F95}

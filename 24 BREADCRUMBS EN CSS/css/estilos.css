@@ -1,0 +1,41 @@
+body {
+    color: #3f3f3f;
+    font-size: 20px;
+}
+
+.cont80 {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+.btn {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    margin: 0 20px;
+}
+.rojo { background-color: crimson}
+.verde { background-color: darkcyan}
+
+.rojo:hover { 
+        background-color: rgb(165, 0, 33);
+        color: white;
+}
+.verde:hover { 
+        background-color: rgb(0, 99, 99);
+        color: white;    
+}
+
+a {
+    text-decoration: none;
+    color: #3f3f3f;
+}
+
+a:hover {
+    color: orange;
+}
+
+.activo {
+    color: brown;
+}

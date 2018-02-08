@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Márgenes colapsados</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+    <h2>Ejemplo colapso padre-hijo</h2>
+    <div class="contenetexto">
+        <div class="texto">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, accusantium magni. Consequatur temporibus, quos natus voluptates corporis voluptatem tempora fugiat!</p>
+        </div>
+    </div>
+    <div class="contenetexto">
+        <div class="texto">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, quae autem. Quas voluptate provident deserunt dolorem quis sapiente illo saepe?</p>
+        </div>
+    </div>
+    <hr>
+    <h2>Ejemplo colapso entre hermanos</h2>
+    <div class="hermano">
+        <p>Soy un hermano</p>
+    </div>
+    &nbsp; <!--rompe el colapso -->
+    <div class="hermano">
+        <p>Soy un hermano</p>
+    </div>
+    <div class="hermano">
+        <p>Soy un hermano</p>
+    </div>
+</body>
+</html>

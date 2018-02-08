@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p { 
+    color: white;
+    font-size: 22px;
+}
+.contenedor {
+    border: solid 5px orange;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: flex-end;
+    }
+
+
+.contenedor div {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.uno { background-color: #E24E42;}
+.dos { background-color: #E98000}
+.tres { background-color: #E86E80}
+.cuatro { background-color: #008F95}

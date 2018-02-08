@@ -1,0 +1,73 @@
+/* Espaciados en textos en CSS */
+
+/* Interlineado */
+
+.texto {
+    line-height: 2em;
+}
+
+/* Separación entre letras */
+
+.titulo {
+    letter-spacing: 5px;
+}
+
+/* Separación entre palabras */
+
+.texto-sep {
+    word-spacing: 20px;
+}
+
+/* Sangrado de párrafos */
+
+.sangrado {
+    text-indent: 4em;
+}
+
+/* Control de espacios en blanco */
+
+/* El texto se muestra como se escribe */
+.texto-pre {
+    white-space: pre;
+}
+
+.texto-cientifico {
+    white-space: pre;
+    font-size: 40px;
+}
+/* El texto se muestra como se escribe
+pero se adapta al contenedor */
+
+.texto-prewrap {
+    white-space: pre-wrap;
+}
+
+/* El texto se muestra respeta los
+   saltos de línea y elimina espacios
+   en blanco */
+
+.texto-preline {
+    white-space: pre-line;
+    text-align: center;
+}
+
+/* Elimina los espacios en blanco pero se
+desborda */
+
+.texto-nowrap {
+    white-space: nowrap;
+}
+
+/* Rotura por letra */
+
+.texto-breakword {
+    word-wrap: break-word;
+    font-size: 30px;
+}
+
+/* Textos de derecha a izquierda */
+
+.arabe {
+    direction: rtl;
+    font-size: 30px;
+}

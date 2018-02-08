@@ -1,0 +1,46 @@
+/* Textos */
+/* Dimensiones CSS desde el punto de 
+vista de textos
+    - Dimensiones absolutas 
+        cm, mm, in, etc...
+    - Dimensiones relativas
+        px 
+        em
+        rem */
+
+/* Propiedad font-size */
+
+.grande {
+    font-size: 28px;
+}
+
+.relativa_em {
+    font-size: 2em; 
+}
+
+.relativa_rem {
+    font-size: 2rem;
+}
+
+/* Estilo general sería el del navegador
+o el asignado al elemento html */
+
+/* Tipografía en CSS */
+/* Propiedad font-family */
+
+body {
+    font-family: Vegur, 'PT Sans', 'Comic Sans MS', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Verdana, sans-serif;
+}
+
+/* Propiedad font-style */
+
+.cursiva {
+    font-style: italic;
+}
+
+/* valor opcional oblique hacerla
+cursiva aunque la fuente no este dibujada */
